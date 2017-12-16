@@ -1,0 +1,1373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 47;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00D7971EC19FBB0D654BB95A49321126 /* ParseErrorList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E428EDDAB35C2093378BFB85331AD2 /* ParseErrorList.swift */; };
+		0325111B443FFEEC8A83303DDD0CB100 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DDF828389DBE22AA873326CB5E07B /* Document.swift */; };
+		032934472100B9DEB950F15FF7692663 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA977C234A2C3898D94F9736DBDB67BA /* Foundation.framework */; };
+		0C6AE86F1FC8C01CF6532F4D2941E84C /* TextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69E6C704EF73C3FD7CE8A5E09331A9C /* TextNode.swift */; };
+		0E047A2145927AA5D8AC92B7AD8F28FF /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57063FF7F36D684F7D51A7806C2881F1 /* String.swift */; };
+		10B8A894ECB6B481E340FD2BF9BE2D2D /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C134F7E94918415CF9D1C1E478705530 /* Comment.swift */; };
+		13B83DF3D9989FE03F3FAB64BF181362 /* FAuthData.h in Headers */ = {isa = PBXBuildFile; fileRef = 029AB46B8755EF7CD743594332D681CA /* FAuthData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1932DC40E2D7ACABA530246318D6EDD0 /* Pods-HackerNewsTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C7E813116B90D482EE051894643ACA15 /* Pods-HackerNewsTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A6AFC412A43770309AEF77E8FA9DC58 /* TreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F2D1A96888DF4A6675563194CC84D /* TreeBuilder.swift */; };
+		1BF86865F4C840C6C281EADC5CED3FD3 /* StreamReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED46569405101447D05A05B6B369B353 /* StreamReader.swift */; };
+		1CCC9D0C038A2BB27EF10D8642C0593F /* SwiftSoup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC228A365CB40127CB2B5BCA26F2E1F /* SwiftSoup-dummy.m */; };
+		1F76C929CAA552AF214731DB36B1FE76 /* FEventType.h in Headers */ = {isa = PBXBuildFile; fileRef = E2057B2C7C86DC268A825D4470AB727C /* FEventType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2488FEA0EB25652E8C4EE033F3B1502C /* UnicodeScalar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DA45AE5006B81AFE32F1D4E72D62B3 /* UnicodeScalar.swift */; };
+		2B017A4D0B5B46ECCACCF81239626D67 /* Pods-HackerNewsUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A86C5559BD68F3BA655AFD42EA89FAE /* Pods-HackerNewsUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CAF3DA5C2A4F2DA3C3D3D43606B6956 /* Pods-HackerNews-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2BC93BE306BFDF8D90E4A556C01B7E6 /* Pods-HackerNews-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2FEC329E27FF82AFF7C7185830A0BA9F /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE267CD1707A317F333B77F99AA759F /* Node.swift */; };
+		30BCFAF073B4E8FA314D9F5D8FB1CDE2 /* HtmlTreeBuilderState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1D3306609755F2DAFF353369E335C5 /* HtmlTreeBuilderState.swift */; };
+		31EBE6AD499445709BCD844373ED6748 /* ParseSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CBA84312119B74C89E4073E4C051785 /* ParseSettings.swift */; };
+		325097C61DCF85EFAEA1182392678BBF /* Attributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DBD9BA802B34182951F7757038A98 /* Attributes.swift */; };
+		348792CAE5B03352A3F45AC43DE2CB75 /* QueryParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1880FC233C17B5FB5215C5D777484972 /* QueryParser.swift */; };
+		35A5D58C1B136B091CC1A8BE896FBD4E /* Collector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59E2D9C65118D4CFE358301E81A5987C /* Collector.swift */; };
+		3AD7247D6AA1854DF1647E51DCFB5E90 /* SwiftSoup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3656B24AD21EF5DEFBD59D0B62653A50 /* SwiftSoup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E60F005CC555017DD552B09C7D39079 /* DataUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD365597DC66DD4C55415845ABABF27 /* DataUtil.swift */; };
+		42D42A7B7C297111C2973CCEAB015C07 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA977C234A2C3898D94F9736DBDB67BA /* Foundation.framework */; };
+		4358EA88CF3261312A546FD45941148A /* ParseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA47B553ED39844D0C73F55873BE5758 /* ParseError.swift */; };
+		4457CFD94E417CB3222AFC7C7503DDFE /* FConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2B13F4EA905457A6F866E0CD35BE55 /* FConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45510CA3A8393725BC6B99A0F130888E /* XmlTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90914733CB9ED5EBFA914335151F2B10 /* XmlTreeBuilder.swift */; };
+		554645E0E1B10E7C3A9856320C570A4A /* Whitelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2945FDA140891864AB6AD75717AAA630 /* Whitelist.swift */; };
+		55C8A1EAC6822AF80CFAE7FF2EE89F03 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2700A5B43A05A2534BCD63E651D4A05B /* SystemConfiguration.framework */; };
+		57485B04B1340C40EA5F9BB7F3CC39E0 /* Firebase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2984E9C0242644AB398ECDB393BA9B /* Firebase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C6B35BF1B4C6BA9BC984CD5EB7FDAD0 /* BooleanAttribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1F8C174998D635BBA0C67C77EAB924 /* BooleanAttribute.swift */; };
+		6205E2DBFCDCCCF6FED9B22520C3F4D4 /* FQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 368DC4E06CEDCB9BF7094C97E120CEAD /* FQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		645159BCA691232E5593964051A506A9 /* SerializationException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6115CA571D479CFED7953573DCB704C9 /* SerializationException.swift */; };
+		6635D9270341665AB5BEEE6978FA93F8 /* StructuralEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C56EA75F866D0D5822D45009C9B54859 /* StructuralEvaluator.swift */; };
+		6F44CF9388B63D51FD7D08383036264E /* StringUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792C5C41F3F995FE33AA22395F1AFE41 /* StringUtil.swift */; };
+		70033FA85BF18888B1CE45F8022B898B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA977C234A2C3898D94F9736DBDB67BA /* Foundation.framework */; };
+		7238F95FA474B379F7052B8D2A364636 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D54A9BB838C02D7AC7F1CE0FFD3F0452 /* Security.framework */; };
+		74629ADE331E08693604502C62674BBD /* SimpleDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76293818296D6E7F9BB3AB624AF8F65C /* SimpleDictionary.swift */; };
+		766B16F2B64C7F1F55E247F6C6FD577C /* Elements.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94A6F88A93E40D7474616B9F1D64BB13 /* Elements.swift */; };
+		7D83927FDBC3C3A77C3B6FFA7B022608 /* FirebaseServerValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 82EC0208082A7D38DA6A2C3CC0949057 /* FirebaseServerValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DAA36715FBF181E15548DC40E908504 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33BA0EC4EF1D635FDE3DEDA7D1D4D0E3 /* CFNetwork.framework */; };
+		8174A1FA472F6321560DB9D22C39B421 /* Pods-HackerNews-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C54060AD8B742BA57BD10922C4603DB3 /* Pods-HackerNews-dummy.m */; };
+		841C31C410D55A96FA8EEDEF0DB9AB17 /* ArrayExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA2F469D5231879381BA79D87F54603B /* ArrayExt.swift */; };
+		8C3D611069C418BD802D629AD685DF27 /* HtmlTreeBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC7C91CFB12A73FD95ED52A60A370113 /* HtmlTreeBuilder.swift */; };
+		921C02B2CB6565E2C40ED92CCE454A0E /* FormElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AD492A17B960AF633EE170769375902 /* FormElement.swift */; };
+		92E1517885F010074ED08B5B5C19FB43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA977C234A2C3898D94F9736DBDB67BA /* Foundation.framework */; };
+		93A8A4B1D4D200C6C0F690F03FD3740C /* OrderedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1291656B7DEF23AAF21E9A7FB25FADC4 /* OrderedSet.swift */; };
+		93CB9C0C0DC1162C3F776F34F27F1BD4 /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F785347DA0EE6E8D9F1A75BC9E5B395E /* Validate.swift */; };
+		949073721B6E7A0C56641B34547C70AD /* FirebaseApp.h in Headers */ = {isa = PBXBuildFile; fileRef = DB61B57E949AB306B2E9566E94BA9C58 /* FirebaseApp.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9DB07E34D27F1BEA1E0E4B4C1D3F1C47 /* HttpStatusException.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934CD2F955BB99D0219BCC5C5D5BD7F3 /* HttpStatusException.swift */; };
+		9F2EEB78E362A41CDD2FC41B0CFC9C35 /* TokeniserState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FA02920863722B6B45DE2844C9DE925 /* TokeniserState.swift */; };
+		A4152CC08C193939912AE9D4D867DA37 /* XmlDeclaration.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C082CED64659C287B6AF5285D4600D /* XmlDeclaration.swift */; };
+		A63E2AAC2BEA0815D6FF2E3BDBE0BBEC /* CombiningEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AE8BE6B41F0FEDC60DCE81090DE551 /* CombiningEvaluator.swift */; };
+		ABEEC5F9F7BF3E97A75B718CC501DDB4 /* FTransactionResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CB0389EE93A67E8DE24B5B010382A68 /* FTransactionResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9F247FA3C54925E5D79536FD332406 /* Tokeniser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27F6A26412F6DBD3333C9106BC99625 /* Tokeniser.swift */; };
+		AE7D3CB975FCD34E51F59C73968B6413 /* Firebase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 686B0D5353D2ACEE2B91BF34EE697E0A /* Firebase-dummy.m */; };
+		B1F008C13186B57669AB589739D61062 /* CharacterReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3692B1D175CB78D74FFD06BED6C4B9AD /* CharacterReader.swift */; };
+		B3A614BCE63F6287EF37DF191DF9F340 /* Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB66F0232554B90DC5F3121DC84FEA3 /* Pattern.swift */; };
+		BD6BAA24BE1A30C4D17B337B79433695 /* Token.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18113D2B574BA3C64D29B38602690FC2 /* Token.swift */; };
+		C17599552C9D5E30A441F48546B3A76E /* SwiftSoup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10D72558F4F680168E2D4B71369D4084 /* SwiftSoup.swift */; };
+		C1ED0B0A5E888C0C60E9644650FB40C7 /* NodeTraversor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4077D7BB54A38819C7D25E1BECF4AA8 /* NodeTraversor.swift */; };
+		C2B328C66973B3BAE71683BE56768EAF /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726D4E5FFBDF17C7EBD395FDC547EA6 /* Parser.swift */; };
+		C71BB0BE7FCC4ACBE1E27B34D93AEEE7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA977C234A2C3898D94F9736DBDB67BA /* Foundation.framework */; };
+		CA2D879CB0EECA928A4366B0DBED6247 /* StringBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C833A315A6BFC2B49F7ED2D7C8F20A1 /* StringBuilder.swift */; };
+		CBB64B9E937D48C2C569840C6888BB72 /* Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = 34873ACEF38527CA1AFC0201D453883E /* Empty.m */; };
+		CC773F5DD58003383A12514003566C2C /* Cleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B17302EDEE216F4220247B2CC472BBE /* Cleaner.swift */; };
+		CE8D5F9B1F0E68D446CC1B13869D7D80 /* Exception.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8ACCE967D657D09BFA57C0647B91DF5 /* Exception.swift */; };
+		CEDFDF0E934724C675B20F7F47E79A0E /* Attribute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55577275F4813D231B6208DCD8DEEE2A /* Attribute.swift */; };
+		DFB970306E4C422AE3B27ABDDDE728F5 /* Firebase.h in Headers */ = {isa = PBXBuildFile; fileRef = D5E89F26D9B6805945D96558F0F4578E /* Firebase.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B05F0A65E5E5E8AD2557C5118E489D /* FAuthType.h in Headers */ = {isa = PBXBuildFile; fileRef = 58817D1E56B1EAE3A854AE10B1747249 /* FAuthType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3E7C91422B55CCCCA9F70E606948434 /* OrderedDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586C2AF2852EEB75371F393FE9EE6CF3 /* OrderedDictionary.swift */; };
+		E4C985F80FC0F94F8E4CE380FE746B99 /* NodeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EB71F6BCA84224C6FBD4E2228DBC67 /* NodeVisitor.swift */; };
+		E5334A1B9C21108D555CA50BA2489573 /* Connection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046FB7EAC200F1118B106E5E91EE3DA9 /* Connection.swift */; };
+		E63EF70CE21BDF74C720C4B481992264 /* Entities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80F321101EA65B28A39500D1034AF13 /* Entities.swift */; };
+		E8A25BC5F986EA6EE3A876D9D5BDDE8F /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BAF9795A28EADAB4E013A654FD6463 /* Element.swift */; };
+		E94EF3C625F4723D424F371ED3D31EC2 /* Tag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75FAFD1B4C0179D40C9BE9285510760A /* Tag.swift */; };
+		E9B1513B0F16BB7FDEE94CD511973800 /* DocumentType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D24823761D93FED0CE2F3CEFF933EA /* DocumentType.swift */; };
+		EAF44973DD682A86D98BAE4187913FE8 /* Evaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A32E6C351D00FE2D8F6C19728C3B49FD /* Evaluator.swift */; };
+		EAFE48EDDBDB381985D3357A87D199E6 /* DataNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5490C73FF9BF88AF8743D35601285580 /* DataNode.swift */; };
+		EE8E9FEB2C8BE59608C1B538C2B888EF /* FMutableData.h in Headers */ = {isa = PBXBuildFile; fileRef = EC7AE76AD7E6AB44CE547DE1D5C34BCE /* FMutableData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F199A6912008F503591CEA01C7564945 /* FDataSnapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 457361DF9FBE55E6F90C83D29B3E7154 /* FDataSnapshot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1BA2A60732A7086F7D506FD6EFBDAA1 /* CharacterExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EBB4858821A9D69ECE6A04A0D72F2D2 /* CharacterExt.swift */; };
+		FB6078D3F571B01B05031303C675EA97 /* Pods-HackerNewsTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDEF04E00167B9AB30C0501E6A79C579 /* Pods-HackerNewsTests-dummy.m */; };
+		FD30CF64B7EFB91786A4C6A26407ED02 /* Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013C6392877D588EB88CC41150931B7D /* Selector.swift */; };
+		FE8DA6964831B6308F1257E6D9FA37F2 /* TokenQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4862804CB2D7D5286910B7BF3D7731E4 /* TokenQueue.swift */; };
+		FED0E6D22987C46867F0AF8A81520678 /* Pods-HackerNewsUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4866C6C8DABD58CC6EE52391725D31 /* Pods-HackerNewsUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		113F4312EC1CAB4377C7BE2D8ECD0E36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4982F3084B981C1E6DCF8B3A064BA2DB;
+			remoteInfo = Firebase;
+		};
+		40574204AD751E7B561C3BCC60CE99DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 693A56CA61847A505EBD13D7B46AF4D8;
+			remoteInfo = SwiftSoup;
+		};
+		45B6AC8491D1F65BE9EB70952939F6D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 693A56CA61847A505EBD13D7B46AF4D8;
+			remoteInfo = SwiftSoup;
+		};
+		4DE2C3E09EBFFADDCFBCBFA5B677CB6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4982F3084B981C1E6DCF8B3A064BA2DB;
+			remoteInfo = Firebase;
+		};
+		7550C342142DA6F187E834C4ECA6A32B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4982F3084B981C1E6DCF8B3A064BA2DB;
+			remoteInfo = Firebase;
+		};
+		E695E87A34CB883193D49F52A80C83EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 693A56CA61847A505EBD13D7B46AF4D8;
+			remoteInfo = SwiftSoup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013C6392877D588EB88CC41150931B7D /* Selector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Selector.swift; path = Sources/Selector.swift; sourceTree = "<group>"; };
+		029AB46B8755EF7CD743594332D681CA /* FAuthData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAuthData.h; sourceTree = "<group>"; };
+		046FB7EAC200F1118B106E5E91EE3DA9 /* Connection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Connection.swift; path = Sources/Connection.swift; sourceTree = "<group>"; };
+		04DA45AE5006B81AFE32F1D4E72D62B3 /* UnicodeScalar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnicodeScalar.swift; path = Sources/UnicodeScalar.swift; sourceTree = "<group>"; };
+		05A45069260B48D236C6832C0C8D8DBC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		073DDF828389DBE22AA873326CB5E07B /* Document.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Document.swift; path = Sources/Document.swift; sourceTree = "<group>"; };
+		07F15E464BAB16813171A06E8654B522 /* Firebase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Firebase.modulemap; sourceTree = "<group>"; };
+		09F083610F4A16312D3B81077E3ADE0E /* Pods-HackerNews-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNews-acknowledgements.markdown"; sourceTree = "<group>"; };
+		10B58F5B052624534C40AE3E543846A8 /* SwiftSoup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSoup.xcconfig; sourceTree = "<group>"; };
+		10D72558F4F680168E2D4B71369D4084 /* SwiftSoup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSoup.swift; path = Sources/SwiftSoup.swift; sourceTree = "<group>"; };
+		1291656B7DEF23AAF21E9A7FB25FADC4 /* OrderedSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedSet.swift; path = Sources/OrderedSet.swift; sourceTree = "<group>"; };
+		155033D21E0F699ECCADB5378A78407B /* Pods-HackerNews.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews.release.xcconfig"; sourceTree = "<group>"; };
+		162BE7840FF99E34E12F5CF951743F77 /* libFirebaseStatic.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = libFirebaseStatic.a; sourceTree = "<group>"; };
+		18113D2B574BA3C64D29B38602690FC2 /* Token.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Token.swift; path = Sources/Token.swift; sourceTree = "<group>"; };
+		1880FC233C17B5FB5215C5D777484972 /* QueryParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueryParser.swift; path = Sources/QueryParser.swift; sourceTree = "<group>"; };
+		1AD492A17B960AF633EE170769375902 /* FormElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FormElement.swift; path = Sources/FormElement.swift; sourceTree = "<group>"; };
+		1E2984E9C0242644AB398ECDB393BA9B /* Firebase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Firebase-umbrella.h"; sourceTree = "<group>"; };
+		1F132A3885E3BE302E7DC903799BFAC9 /* Pods-HackerNewsTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNewsTests-frameworks.sh"; sourceTree = "<group>"; };
+		1FF357FADBA2EC6B6142C844A5B3B6A2 /* Pods-HackerNews.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HackerNews.modulemap"; sourceTree = "<group>"; };
+		2700A5B43A05A2534BCD63E651D4A05B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		272815ACD5605F0A339EF53D7AD3359B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2945FDA140891864AB6AD75717AAA630 /* Whitelist.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Whitelist.swift; path = Sources/Whitelist.swift; sourceTree = "<group>"; };
+		2AC228A365CB40127CB2B5BCA26F2E1F /* SwiftSoup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSoup-dummy.m"; sourceTree = "<group>"; };
+		2BD365597DC66DD4C55415845ABABF27 /* DataUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataUtil.swift; path = Sources/DataUtil.swift; sourceTree = "<group>"; };
+		2DB66F0232554B90DC5F3121DC84FEA3 /* Pattern.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Pattern.swift; path = Sources/Pattern.swift; sourceTree = "<group>"; };
+		31EB71F6BCA84224C6FBD4E2228DBC67 /* NodeVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeVisitor.swift; path = Sources/NodeVisitor.swift; sourceTree = "<group>"; };
+		33BA0EC4EF1D635FDE3DEDA7D1D4D0E3 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		34873ACEF38527CA1AFC0201D453883E /* Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Empty.m; sourceTree = "<group>"; };
+		34A2C9E93716AE44ECF9AE55E0A84D2B /* SwiftSoup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-prefix.pch"; sourceTree = "<group>"; };
+		3656B24AD21EF5DEFBD59D0B62653A50 /* SwiftSoup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSoup-umbrella.h"; sourceTree = "<group>"; };
+		368DC4E06CEDCB9BF7094C97E120CEAD /* FQuery.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FQuery.h; sourceTree = "<group>"; };
+		3692B1D175CB78D74FFD06BED6C4B9AD /* CharacterReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterReader.swift; path = Sources/CharacterReader.swift; sourceTree = "<group>"; };
+		3FE6F63E26F97BAA1FB54FB2BDA45185 /* Pods-HackerNewsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FEFBE94933C556D43C2CC21CE8AF024 /* Pods-HackerNewsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsTests.release.xcconfig"; sourceTree = "<group>"; };
+		43AE8BE6B41F0FEDC60DCE81090DE551 /* CombiningEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CombiningEvaluator.swift; path = Sources/CombiningEvaluator.swift; sourceTree = "<group>"; };
+		457361DF9FBE55E6F90C83D29B3E7154 /* FDataSnapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FDataSnapshot.h; sourceTree = "<group>"; };
+		4726D4E5FFBDF17C7EBD395FDC547EA6 /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser.swift; sourceTree = "<group>"; };
+		4862804CB2D7D5286910B7BF3D7731E4 /* TokenQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokenQueue.swift; path = Sources/TokenQueue.swift; sourceTree = "<group>"; };
+		4C833A315A6BFC2B49F7ED2D7C8F20A1 /* StringBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringBuilder.swift; path = Sources/StringBuilder.swift; sourceTree = "<group>"; };
+		4CB0389EE93A67E8DE24B5B010382A68 /* FTransactionResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FTransactionResult.h; sourceTree = "<group>"; };
+		4FA02920863722B6B45DE2844C9DE925 /* TokeniserState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TokeniserState.swift; path = Sources/TokeniserState.swift; sourceTree = "<group>"; };
+		52F5518B7F7CAC03E794DB768D6C0FDC /* Pods-HackerNewsUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HackerNewsUITests.modulemap"; sourceTree = "<group>"; };
+		5490C73FF9BF88AF8743D35601285580 /* DataNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataNode.swift; path = Sources/DataNode.swift; sourceTree = "<group>"; };
+		55577275F4813D231B6208DCD8DEEE2A /* Attribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attribute.swift; path = Sources/Attribute.swift; sourceTree = "<group>"; };
+		55D5B31DBA89C801D16FE009833549E7 /* Pods-HackerNews.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNews.debug.xcconfig"; sourceTree = "<group>"; };
+		57063FF7F36D684F7D51A7806C2881F1 /* String.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = String.swift; path = Sources/String.swift; sourceTree = "<group>"; };
+		586C2AF2852EEB75371F393FE9EE6CF3 /* OrderedDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderedDictionary.swift; path = Sources/OrderedDictionary.swift; sourceTree = "<group>"; };
+		58817D1E56B1EAE3A854AE10B1747249 /* FAuthType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FAuthType.h; sourceTree = "<group>"; };
+		59E2D9C65118D4CFE358301E81A5987C /* Collector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Collector.swift; path = Sources/Collector.swift; sourceTree = "<group>"; };
+		5C13F5C324CDB3D7ECB6444DA1849BE0 /* Firebase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Firebase-prefix.pch"; sourceTree = "<group>"; };
+		5CBA84312119B74C89E4073E4C051785 /* ParseSettings.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseSettings.swift; path = Sources/ParseSettings.swift; sourceTree = "<group>"; };
+		5CE267CD1707A317F333B77F99AA759F /* Node.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Node.swift; path = Sources/Node.swift; sourceTree = "<group>"; };
+		6115CA571D479CFED7953573DCB704C9 /* SerializationException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SerializationException.swift; path = Sources/SerializationException.swift; sourceTree = "<group>"; };
+		62062560CEA05E0A13E22182A1C72855 /* Pods-HackerNews-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNews-acknowledgements.plist"; sourceTree = "<group>"; };
+		6399E4476000BBA8ECC50A5E4021605E /* Pods-HackerNews-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNews-resources.sh"; sourceTree = "<group>"; };
+		686B0D5353D2ACEE2B91BF34EE697E0A /* Firebase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Firebase-dummy.m"; sourceTree = "<group>"; };
+		68D96CDF6B471B6608793E330D923A48 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B17302EDEE216F4220247B2CC472BBE /* Cleaner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Cleaner.swift; path = Sources/Cleaner.swift; sourceTree = "<group>"; };
+		6F188C7093B224A58B92ECF57EC20B9A /* Pods-HackerNewsTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-HackerNewsTests.modulemap"; sourceTree = "<group>"; };
+		75FAFD1B4C0179D40C9BE9285510760A /* Tag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tag.swift; path = Sources/Tag.swift; sourceTree = "<group>"; };
+		76293818296D6E7F9BB3AB624AF8F65C /* SimpleDictionary.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleDictionary.swift; path = Sources/SimpleDictionary.swift; sourceTree = "<group>"; };
+		779D52F8E3F259649C005ECC8E22D50B /* Pods-HackerNewsTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNewsTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		792C5C41F3F995FE33AA22395F1AFE41 /* StringUtil.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtil.swift; path = Sources/StringUtil.swift; sourceTree = "<group>"; };
+		7A86C5559BD68F3BA655AFD42EA89FAE /* Pods-HackerNewsUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNewsUITests-umbrella.h"; sourceTree = "<group>"; };
+		7B1F8C174998D635BBA0C67C77EAB924 /* BooleanAttribute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BooleanAttribute.swift; path = Sources/BooleanAttribute.swift; sourceTree = "<group>"; };
+		7EBB4858821A9D69ECE6A04A0D72F2D2 /* CharacterExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CharacterExt.swift; path = Sources/CharacterExt.swift; sourceTree = "<group>"; };
+		80B2B28E07F930266C438C0E26B1B0F9 /* Pods_HackerNews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HackerNews.framework; path = "Pods-HackerNews.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8290B6A4DCF02955E6BA80E5711FF133 /* Pods-HackerNewsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		82EC0208082A7D38DA6A2C3CC0949057 /* FirebaseServerValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FirebaseServerValue.h; sourceTree = "<group>"; };
+		8321BDE8FCA5467EC86B22FA0F1C3C41 /* SwiftSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSoup.framework; path = SwiftSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BAF9795A28EADAB4E013A654FD6463 /* Element.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Element.swift; path = Sources/Element.swift; sourceTree = "<group>"; };
+		8B4DBD9BA802B34182951F7757038A98 /* Attributes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Attributes.swift; path = Sources/Attributes.swift; sourceTree = "<group>"; };
+		8E1D3306609755F2DAFF353369E335C5 /* HtmlTreeBuilderState.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilderState.swift; path = Sources/HtmlTreeBuilderState.swift; sourceTree = "<group>"; };
+		8E2B13F4EA905457A6F866E0CD35BE55 /* FConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FConfig.h; sourceTree = "<group>"; };
+		8E8948C6A14F790D34FAB1B602E7E8B0 /* Pods-HackerNewsTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNewsTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8EBCDE5329E4EAE5DB8B158D954FD926 /* Firebase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Firebase.framework; path = Firebase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90914733CB9ED5EBFA914335151F2B10 /* XmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlTreeBuilder.swift; path = Sources/XmlTreeBuilder.swift; sourceTree = "<group>"; };
+		934CD2F955BB99D0219BCC5C5D5BD7F3 /* HttpStatusException.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpStatusException.swift; path = Sources/HttpStatusException.swift; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94A6F88A93E40D7474616B9F1D64BB13 /* Elements.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Elements.swift; path = Sources/Elements.swift; sourceTree = "<group>"; };
+		98617A532D8B4036FF257057BF5C1C32 /* Pods-HackerNews-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNews-frameworks.sh"; sourceTree = "<group>"; };
+		98DD2195D04699BEC4B95ADE887BA509 /* Pods-HackerNewsUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HackerNewsUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		9A1F2D1A96888DF4A6675563194CC84D /* TreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TreeBuilder.swift; path = Sources/TreeBuilder.swift; sourceTree = "<group>"; };
+		9B4866C6C8DABD58CC6EE52391725D31 /* Pods-HackerNewsUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNewsUITests-dummy.m"; sourceTree = "<group>"; };
+		9C7C12FA06BBDC56A781193E476B11BE /* Pods-HackerNewsUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HackerNewsUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A0E428EDDAB35C2093378BFB85331AD2 /* ParseErrorList.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseErrorList.swift; path = Sources/ParseErrorList.swift; sourceTree = "<group>"; };
+		A32E6C351D00FE2D8F6C19728C3B49FD /* Evaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Evaluator.swift; path = Sources/Evaluator.swift; sourceTree = "<group>"; };
+		A8ACCE967D657D09BFA57C0647B91DF5 /* Exception.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Exception.swift; path = Sources/Exception.swift; sourceTree = "<group>"; };
+		B754C26BA429C467CB04C645E8DD3A80 /* SwiftSoup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftSoup.modulemap; sourceTree = "<group>"; };
+		B7DF037A1DA350C21414D4287437EFCE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8C082CED64659C287B6AF5285D4600D /* XmlDeclaration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlDeclaration.swift; path = Sources/XmlDeclaration.swift; sourceTree = "<group>"; };
+		BC7C91CFB12A73FD95ED52A60A370113 /* HtmlTreeBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HtmlTreeBuilder.swift; path = Sources/HtmlTreeBuilder.swift; sourceTree = "<group>"; };
+		BE14D4030108496D128BA3BFFA0A7425 /* Pods-HackerNewsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HackerNewsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C134F7E94918415CF9D1C1E478705530 /* Comment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Comment.swift; path = Sources/Comment.swift; sourceTree = "<group>"; };
+		C54060AD8B742BA57BD10922C4603DB3 /* Pods-HackerNews-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNews-dummy.m"; sourceTree = "<group>"; };
+		C56EA75F866D0D5822D45009C9B54859 /* StructuralEvaluator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StructuralEvaluator.swift; path = Sources/StructuralEvaluator.swift; sourceTree = "<group>"; };
+		C7E813116B90D482EE051894643ACA15 /* Pods-HackerNewsTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNewsTests-umbrella.h"; sourceTree = "<group>"; };
+		CDEF04E00167B9AB30C0501E6A79C579 /* Pods-HackerNewsTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HackerNewsTests-dummy.m"; sourceTree = "<group>"; };
+		CEAC2564A1B3A5EA9156DDD648EDFC2D /* Pods-HackerNewsUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNewsUITests-resources.sh"; sourceTree = "<group>"; };
+		D2BC93BE306BFDF8D90E4A556C01B7E6 /* Pods-HackerNews-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HackerNews-umbrella.h"; sourceTree = "<group>"; };
+		D54A9BB838C02D7AC7F1CE0FFD3F0452 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		D5E89F26D9B6805945D96558F0F4578E /* Firebase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		D9D24823761D93FED0CE2F3CEFF933EA /* DocumentType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DocumentType.swift; path = Sources/DocumentType.swift; sourceTree = "<group>"; };
+		DB61B57E949AB306B2E9566E94BA9C58 /* FirebaseApp.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FirebaseApp.h; sourceTree = "<group>"; };
+		DC2B19B61C0FBC22B47D158215A84F58 /* Firebase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Firebase.xcconfig; sourceTree = "<group>"; };
+		E1AA4595AA9148345F6A26C111C149AB /* Pods_HackerNewsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HackerNewsUITests.framework; path = "Pods-HackerNewsUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2057B2C7C86DC268A825D4470AB727C /* FEventType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FEventType.h; sourceTree = "<group>"; };
+		E4077D7BB54A38819C7D25E1BECF4AA8 /* NodeTraversor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NodeTraversor.swift; path = Sources/NodeTraversor.swift; sourceTree = "<group>"; };
+		E86BF5E0317EA8B0A7EEC8809078D4C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E892AC6E5CB54DF6C00FEAFDA2DE06CC /* Pods-HackerNewsUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNewsUITests-frameworks.sh"; sourceTree = "<group>"; };
+		E9A47563501ABC8B7407C491B6D37E91 /* Pods_HackerNewsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HackerNewsTests.framework; path = "Pods-HackerNewsTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2F469D5231879381BA79D87F54603B /* ArrayExt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ArrayExt.swift; path = Sources/ArrayExt.swift; sourceTree = "<group>"; };
+		EA47B553ED39844D0C73F55873BE5758 /* ParseError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParseError.swift; path = Sources/ParseError.swift; sourceTree = "<group>"; };
+		EC7AE76AD7E6AB44CE547DE1D5C34BCE /* FMutableData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FMutableData.h; sourceTree = "<group>"; };
+		ED445DE3558D0EC784948566207011AE /* Pods-HackerNewsTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HackerNewsTests-resources.sh"; sourceTree = "<group>"; };
+		ED46569405101447D05A05B6B369B353 /* StreamReader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StreamReader.swift; path = Sources/StreamReader.swift; sourceTree = "<group>"; };
+		F27F6A26412F6DBD3333C9106BC99625 /* Tokeniser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tokeniser.swift; path = Sources/Tokeniser.swift; sourceTree = "<group>"; };
+		F69E6C704EF73C3FD7CE8A5E09331A9C /* TextNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextNode.swift; path = Sources/TextNode.swift; sourceTree = "<group>"; };
+		F785347DA0EE6E8D9F1A75BC9E5B395E /* Validate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validate.swift; path = Sources/Validate.swift; sourceTree = "<group>"; };
+		F80F321101EA65B28A39500D1034AF13 /* Entities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Entities.swift; path = Sources/Entities.swift; sourceTree = "<group>"; };
+		FA977C234A2C3898D94F9736DBDB67BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		35131FB0F5B9E2FE99C4C5A6FCF1A92B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DAA36715FBF181E15548DC40E908504 /* CFNetwork.framework in Frameworks */,
+				70033FA85BF18888B1CE45F8022B898B /* Foundation.framework in Frameworks */,
+				7238F95FA474B379F7052B8D2A364636 /* Security.framework in Frameworks */,
+				55C8A1EAC6822AF80CFAE7FF2EE89F03 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7793EF57B2908781783C74C8B5AC7035 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				032934472100B9DEB950F15FF7692663 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A156B00CC0CF9E851DDBACA5B50710C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42D42A7B7C297111C2973CCEAB015C07 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFB5E63132F2E230C4DD4BB8A975E20C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C71BB0BE7FCC4ACBE1E27B34D93AEEE7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBFE133A4AB2A908EEFED65ED18A8189 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92E1517885F010074ED08B5B5C19FB43 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB12451E3AD05B4044014545EE18B6E8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		281C1C8CB6342EE10C3EC2D0B50C592E /* Pods-HackerNewsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E86BF5E0317EA8B0A7EEC8809078D4C6 /* Info.plist */,
+				52F5518B7F7CAC03E794DB768D6C0FDC /* Pods-HackerNewsUITests.modulemap */,
+				9C7C12FA06BBDC56A781193E476B11BE /* Pods-HackerNewsUITests-acknowledgements.markdown */,
+				98DD2195D04699BEC4B95ADE887BA509 /* Pods-HackerNewsUITests-acknowledgements.plist */,
+				9B4866C6C8DABD58CC6EE52391725D31 /* Pods-HackerNewsUITests-dummy.m */,
+				E892AC6E5CB54DF6C00FEAFDA2DE06CC /* Pods-HackerNewsUITests-frameworks.sh */,
+				CEAC2564A1B3A5EA9156DDD648EDFC2D /* Pods-HackerNewsUITests-resources.sh */,
+				7A86C5559BD68F3BA655AFD42EA89FAE /* Pods-HackerNewsUITests-umbrella.h */,
+				BE14D4030108496D128BA3BFFA0A7425 /* Pods-HackerNewsUITests.debug.xcconfig */,
+				8290B6A4DCF02955E6BA80E5711FF133 /* Pods-HackerNewsUITests.release.xcconfig */,
+			);
+			name = "Pods-HackerNewsUITests";
+			path = "Target Support Files/Pods-HackerNewsUITests";
+			sourceTree = "<group>";
+		};
+		2B1116558A549683F8A2D1220787622E /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				34873ACEF38527CA1AFC0201D453883E /* Empty.m */,
+				029AB46B8755EF7CD743594332D681CA /* FAuthData.h */,
+				58817D1E56B1EAE3A854AE10B1747249 /* FAuthType.h */,
+				8E2B13F4EA905457A6F866E0CD35BE55 /* FConfig.h */,
+				457361DF9FBE55E6F90C83D29B3E7154 /* FDataSnapshot.h */,
+				E2057B2C7C86DC268A825D4470AB727C /* FEventType.h */,
+				D5E89F26D9B6805945D96558F0F4578E /* Firebase.h */,
+				DB61B57E949AB306B2E9566E94BA9C58 /* FirebaseApp.h */,
+				82EC0208082A7D38DA6A2C3CC0949057 /* FirebaseServerValue.h */,
+				EC7AE76AD7E6AB44CE547DE1D5C34BCE /* FMutableData.h */,
+				368DC4E06CEDCB9BF7094C97E120CEAD /* FQuery.h */,
+				4CB0389EE93A67E8DE24B5B010382A68 /* FTransactionResult.h */,
+				5800EA7D1353CBB96E0DBD7CB1300709 /* Frameworks */,
+				A2CD3360601C2412506862AE92B09694 /* Support Files */,
+			);
+			name = Firebase;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		34183324966828370C7D24FF2636F8A9 /* Pods-HackerNewsTests */ = {
+			isa = PBXGroup;
+			children = (
+				05A45069260B48D236C6832C0C8D8DBC /* Info.plist */,
+				6F188C7093B224A58B92ECF57EC20B9A /* Pods-HackerNewsTests.modulemap */,
+				8E8948C6A14F790D34FAB1B602E7E8B0 /* Pods-HackerNewsTests-acknowledgements.markdown */,
+				779D52F8E3F259649C005ECC8E22D50B /* Pods-HackerNewsTests-acknowledgements.plist */,
+				CDEF04E00167B9AB30C0501E6A79C579 /* Pods-HackerNewsTests-dummy.m */,
+				1F132A3885E3BE302E7DC903799BFAC9 /* Pods-HackerNewsTests-frameworks.sh */,
+				ED445DE3558D0EC784948566207011AE /* Pods-HackerNewsTests-resources.sh */,
+				C7E813116B90D482EE051894643ACA15 /* Pods-HackerNewsTests-umbrella.h */,
+				3FE6F63E26F97BAA1FB54FB2BDA45185 /* Pods-HackerNewsTests.debug.xcconfig */,
+				3FEFBE94933C556D43C2CC21CE8AF024 /* Pods-HackerNewsTests.release.xcconfig */,
+			);
+			name = "Pods-HackerNewsTests";
+			path = "Target Support Files/Pods-HackerNewsTests";
+			sourceTree = "<group>";
+		};
+		36A197CF93F8DD53048C606CBD3D234D /* Pods-HackerNews */ = {
+			isa = PBXGroup;
+			children = (
+				68D96CDF6B471B6608793E330D923A48 /* Info.plist */,
+				1FF357FADBA2EC6B6142C844A5B3B6A2 /* Pods-HackerNews.modulemap */,
+				09F083610F4A16312D3B81077E3ADE0E /* Pods-HackerNews-acknowledgements.markdown */,
+				62062560CEA05E0A13E22182A1C72855 /* Pods-HackerNews-acknowledgements.plist */,
+				C54060AD8B742BA57BD10922C4603DB3 /* Pods-HackerNews-dummy.m */,
+				98617A532D8B4036FF257057BF5C1C32 /* Pods-HackerNews-frameworks.sh */,
+				6399E4476000BBA8ECC50A5E4021605E /* Pods-HackerNews-resources.sh */,
+				D2BC93BE306BFDF8D90E4A556C01B7E6 /* Pods-HackerNews-umbrella.h */,
+				55D5B31DBA89C801D16FE009833549E7 /* Pods-HackerNews.debug.xcconfig */,
+				155033D21E0F699ECCADB5378A78407B /* Pods-HackerNews.release.xcconfig */,
+			);
+			name = "Pods-HackerNews";
+			path = "Target Support Files/Pods-HackerNews";
+			sourceTree = "<group>";
+		};
+		4A20BB7E5A254A332750F2E66BD452B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2B1116558A549683F8A2D1220787622E /* Firebase */,
+				8D7D191254D78CECBCB3D280880E5012 /* SwiftSoup */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5800EA7D1353CBB96E0DBD7CB1300709 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				162BE7840FF99E34E12F5CF951743F77 /* libFirebaseStatic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				4A20BB7E5A254A332750F2E66BD452B6 /* Pods */,
+				8A9E3F77D89E7A6EEB7364E02898999E /* Products */,
+				AB5826D8F804E689CD8A8F206AE132D5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8A9E3F77D89E7A6EEB7364E02898999E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBCDE5329E4EAE5DB8B158D954FD926 /* Firebase.framework */,
+				80B2B28E07F930266C438C0E26B1B0F9 /* Pods_HackerNews.framework */,
+				E9A47563501ABC8B7407C491B6D37E91 /* Pods_HackerNewsTests.framework */,
+				E1AA4595AA9148345F6A26C111C149AB /* Pods_HackerNewsUITests.framework */,
+				8321BDE8FCA5467EC86B22FA0F1C3C41 /* SwiftSoup.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D7D191254D78CECBCB3D280880E5012 /* SwiftSoup */ = {
+			isa = PBXGroup;
+			children = (
+				EA2F469D5231879381BA79D87F54603B /* ArrayExt.swift */,
+				55577275F4813D231B6208DCD8DEEE2A /* Attribute.swift */,
+				8B4DBD9BA802B34182951F7757038A98 /* Attributes.swift */,
+				7B1F8C174998D635BBA0C67C77EAB924 /* BooleanAttribute.swift */,
+				7EBB4858821A9D69ECE6A04A0D72F2D2 /* CharacterExt.swift */,
+				3692B1D175CB78D74FFD06BED6C4B9AD /* CharacterReader.swift */,
+				6B17302EDEE216F4220247B2CC472BBE /* Cleaner.swift */,
+				59E2D9C65118D4CFE358301E81A5987C /* Collector.swift */,
+				43AE8BE6B41F0FEDC60DCE81090DE551 /* CombiningEvaluator.swift */,
+				C134F7E94918415CF9D1C1E478705530 /* Comment.swift */,
+				046FB7EAC200F1118B106E5E91EE3DA9 /* Connection.swift */,
+				5490C73FF9BF88AF8743D35601285580 /* DataNode.swift */,
+				2BD365597DC66DD4C55415845ABABF27 /* DataUtil.swift */,
+				073DDF828389DBE22AA873326CB5E07B /* Document.swift */,
+				D9D24823761D93FED0CE2F3CEFF933EA /* DocumentType.swift */,
+				89BAF9795A28EADAB4E013A654FD6463 /* Element.swift */,
+				94A6F88A93E40D7474616B9F1D64BB13 /* Elements.swift */,
+				F80F321101EA65B28A39500D1034AF13 /* Entities.swift */,
+				A32E6C351D00FE2D8F6C19728C3B49FD /* Evaluator.swift */,
+				A8ACCE967D657D09BFA57C0647B91DF5 /* Exception.swift */,
+				1AD492A17B960AF633EE170769375902 /* FormElement.swift */,
+				BC7C91CFB12A73FD95ED52A60A370113 /* HtmlTreeBuilder.swift */,
+				8E1D3306609755F2DAFF353369E335C5 /* HtmlTreeBuilderState.swift */,
+				934CD2F955BB99D0219BCC5C5D5BD7F3 /* HttpStatusException.swift */,
+				5CE267CD1707A317F333B77F99AA759F /* Node.swift */,
+				E4077D7BB54A38819C7D25E1BECF4AA8 /* NodeTraversor.swift */,
+				31EB71F6BCA84224C6FBD4E2228DBC67 /* NodeVisitor.swift */,
+				586C2AF2852EEB75371F393FE9EE6CF3 /* OrderedDictionary.swift */,
+				1291656B7DEF23AAF21E9A7FB25FADC4 /* OrderedSet.swift */,
+				EA47B553ED39844D0C73F55873BE5758 /* ParseError.swift */,
+				A0E428EDDAB35C2093378BFB85331AD2 /* ParseErrorList.swift */,
+				4726D4E5FFBDF17C7EBD395FDC547EA6 /* Parser.swift */,
+				5CBA84312119B74C89E4073E4C051785 /* ParseSettings.swift */,
+				2DB66F0232554B90DC5F3121DC84FEA3 /* Pattern.swift */,
+				1880FC233C17B5FB5215C5D777484972 /* QueryParser.swift */,
+				013C6392877D588EB88CC41150931B7D /* Selector.swift */,
+				6115CA571D479CFED7953573DCB704C9 /* SerializationException.swift */,
+				76293818296D6E7F9BB3AB624AF8F65C /* SimpleDictionary.swift */,
+				ED46569405101447D05A05B6B369B353 /* StreamReader.swift */,
+				57063FF7F36D684F7D51A7806C2881F1 /* String.swift */,
+				4C833A315A6BFC2B49F7ED2D7C8F20A1 /* StringBuilder.swift */,
+				792C5C41F3F995FE33AA22395F1AFE41 /* StringUtil.swift */,
+				C56EA75F866D0D5822D45009C9B54859 /* StructuralEvaluator.swift */,
+				10D72558F4F680168E2D4B71369D4084 /* SwiftSoup.swift */,
+				75FAFD1B4C0179D40C9BE9285510760A /* Tag.swift */,
+				F69E6C704EF73C3FD7CE8A5E09331A9C /* TextNode.swift */,
+				18113D2B574BA3C64D29B38602690FC2 /* Token.swift */,
+				F27F6A26412F6DBD3333C9106BC99625 /* Tokeniser.swift */,
+				4FA02920863722B6B45DE2844C9DE925 /* TokeniserState.swift */,
+				4862804CB2D7D5286910B7BF3D7731E4 /* TokenQueue.swift */,
+				9A1F2D1A96888DF4A6675563194CC84D /* TreeBuilder.swift */,
+				04DA45AE5006B81AFE32F1D4E72D62B3 /* UnicodeScalar.swift */,
+				F785347DA0EE6E8D9F1A75BC9E5B395E /* Validate.swift */,
+				2945FDA140891864AB6AD75717AAA630 /* Whitelist.swift */,
+				B8C082CED64659C287B6AF5285D4600D /* XmlDeclaration.swift */,
+				90914733CB9ED5EBFA914335151F2B10 /* XmlTreeBuilder.swift */,
+				B2AF8B59AED90F4BF73C47A90911032A /* Support Files */,
+			);
+			name = SwiftSoup;
+			path = SwiftSoup;
+			sourceTree = "<group>";
+		};
+		A2CD3360601C2412506862AE92B09694 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F15E464BAB16813171A06E8654B522 /* Firebase.modulemap */,
+				DC2B19B61C0FBC22B47D158215A84F58 /* Firebase.xcconfig */,
+				686B0D5353D2ACEE2B91BF34EE697E0A /* Firebase-dummy.m */,
+				5C13F5C324CDB3D7ECB6444DA1849BE0 /* Firebase-prefix.pch */,
+				1E2984E9C0242644AB398ECDB393BA9B /* Firebase-umbrella.h */,
+				B7DF037A1DA350C21414D4287437EFCE /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Firebase";
+			sourceTree = "<group>";
+		};
+		AB5826D8F804E689CD8A8F206AE132D5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				36A197CF93F8DD53048C606CBD3D234D /* Pods-HackerNews */,
+				34183324966828370C7D24FF2636F8A9 /* Pods-HackerNewsTests */,
+				281C1C8CB6342EE10C3EC2D0B50C592E /* Pods-HackerNewsUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B2AF8B59AED90F4BF73C47A90911032A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				272815ACD5605F0A339EF53D7AD3359B /* Info.plist */,
+				B754C26BA429C467CB04C645E8DD3A80 /* SwiftSoup.modulemap */,
+				10B58F5B052624534C40AE3E543846A8 /* SwiftSoup.xcconfig */,
+				2AC228A365CB40127CB2B5BCA26F2E1F /* SwiftSoup-dummy.m */,
+				34A2C9E93716AE44ECF9AE55E0A84D2B /* SwiftSoup-prefix.pch */,
+				3656B24AD21EF5DEFBD59D0B62653A50 /* SwiftSoup-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSoup";
+			sourceTree = "<group>";
+		};
+		CB12451E3AD05B4044014545EE18B6E8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				33BA0EC4EF1D635FDE3DEDA7D1D4D0E3 /* CFNetwork.framework */,
+				FA977C234A2C3898D94F9736DBDB67BA /* Foundation.framework */,
+				D54A9BB838C02D7AC7F1CE0FFD3F0452 /* Security.framework */,
+				2700A5B43A05A2534BCD63E651D4A05B /* SystemConfiguration.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		047F4AB479B72C59EF04F849A65BFA4A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B83DF3D9989FE03F3FAB64BF181362 /* FAuthData.h in Headers */,
+				E3B05F0A65E5E5E8AD2557C5118E489D /* FAuthType.h in Headers */,
+				4457CFD94E417CB3222AFC7C7503DDFE /* FConfig.h in Headers */,
+				F199A6912008F503591CEA01C7564945 /* FDataSnapshot.h in Headers */,
+				1F76C929CAA552AF214731DB36B1FE76 /* FEventType.h in Headers */,
+				57485B04B1340C40EA5F9BB7F3CC39E0 /* Firebase-umbrella.h in Headers */,
+				DFB970306E4C422AE3B27ABDDDE728F5 /* Firebase.h in Headers */,
+				949073721B6E7A0C56641B34547C70AD /* FirebaseApp.h in Headers */,
+				7D83927FDBC3C3A77C3B6FFA7B022608 /* FirebaseServerValue.h in Headers */,
+				EE8E9FEB2C8BE59608C1B538C2B888EF /* FMutableData.h in Headers */,
+				6205E2DBFCDCCCF6FED9B22520C3F4D4 /* FQuery.h in Headers */,
+				ABEEC5F9F7BF3E97A75B718CC501DDB4 /* FTransactionResult.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FA054783170BDEE63CB7A64A1136564 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3AD7247D6AA1854DF1647E51DCFB5E90 /* SwiftSoup-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		976EDA882AAA6D11FDD26189A40F38EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1932DC40E2D7ACABA530246318D6EDD0 /* Pods-HackerNewsTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7BBE1FFB3452BCE786D25D69AC55FD7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CAF3DA5C2A4F2DA3C3D3D43606B6956 /* Pods-HackerNews-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF6567D49A957D54C9E637FAF2DA137F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B017A4D0B5B46ECCACCF81239626D67 /* Pods-HackerNewsUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4982F3084B981C1E6DCF8B3A064BA2DB /* Firebase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18150B8AD4D5227FFC01504D8B030C7F /* Build configuration list for PBXNativeTarget "Firebase" */;
+			buildPhases = (
+				0280FDD6FDB0D3BA4C5D37C031481561 /* Sources */,
+				35131FB0F5B9E2FE99C4C5A6FCF1A92B /* Frameworks */,
+				047F4AB479B72C59EF04F849A65BFA4A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Firebase;
+			productName = Firebase;
+			productReference = 8EBCDE5329E4EAE5DB8B158D954FD926 /* Firebase.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		693A56CA61847A505EBD13D7B46AF4D8 /* SwiftSoup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A33EF3AB223C5319E80AFEC615EDD689 /* Build configuration list for PBXNativeTarget "SwiftSoup" */;
+			buildPhases = (
+				EBAD9AC8F5F7558B2E80DA8F7E4FF523 /* Sources */,
+				DBFE133A4AB2A908EEFED65ED18A8189 /* Frameworks */,
+				2FA054783170BDEE63CB7A64A1136564 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSoup;
+			productName = SwiftSoup;
+			productReference = 8321BDE8FCA5467EC86B22FA0F1C3C41 /* SwiftSoup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7034E6D99183FDD48D986640646ADB06 /* Pods-HackerNewsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DB341F055A31856F5C9B45B3E39413D /* Build configuration list for PBXNativeTarget "Pods-HackerNewsUITests" */;
+			buildPhases = (
+				A714DFCC6105382523315095B9805DEF /* Sources */,
+				A156B00CC0CF9E851DDBACA5B50710C8 /* Frameworks */,
+				EF6567D49A957D54C9E637FAF2DA137F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3788237AC71ADFD299D8690F2348933 /* PBXTargetDependency */,
+				E30ECA677D03CEE7465AE220012E005B /* PBXTargetDependency */,
+			);
+			name = "Pods-HackerNewsUITests";
+			productName = "Pods-HackerNewsUITests";
+			productReference = E1AA4595AA9148345F6A26C111C149AB /* Pods_HackerNewsUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A2F416C864A59AC7E95E8ED9246CD4EF /* Pods-HackerNewsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7907D8D78B97090C0D488D6F0411C6B /* Build configuration list for PBXNativeTarget "Pods-HackerNewsTests" */;
+			buildPhases = (
+				0D5661BAEBE6DC19F2F5C950467D9B5D /* Sources */,
+				7793EF57B2908781783C74C8B5AC7035 /* Frameworks */,
+				976EDA882AAA6D11FDD26189A40F38EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C87AAE906C031AA25446ED4AEBE8A06 /* PBXTargetDependency */,
+				0FF61CC5435B1E41DBB5B53B99EA2C15 /* PBXTargetDependency */,
+			);
+			name = "Pods-HackerNewsTests";
+			productName = "Pods-HackerNewsTests";
+			productReference = E9A47563501ABC8B7407C491B6D37E91 /* Pods_HackerNewsTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5AC8092FA82544E5F92191A1ECE337D /* Pods-HackerNews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB86EA1967315A9D7C19904519B7B2D /* Build configuration list for PBXNativeTarget "Pods-HackerNews" */;
+			buildPhases = (
+				1EB14961DCDEAE7331D8E11B2FA09365 /* Sources */,
+				CFB5E63132F2E230C4DD4BB8A975E20C /* Frameworks */,
+				B7BBE1FFB3452BCE786D25D69AC55FD7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABD5AABF2D315264D90EBCCA071232E5 /* PBXTargetDependency */,
+				AE7477C83E21FF15D83D7A574086386D /* PBXTargetDependency */,
+			);
+			name = "Pods-HackerNews";
+			productName = "Pods-HackerNews";
+			productReference = 80B2B28E07F930266C438C0E26B1B0F9 /* Pods_HackerNews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8A9E3F77D89E7A6EEB7364E02898999E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4982F3084B981C1E6DCF8B3A064BA2DB /* Firebase */,
+				B5AC8092FA82544E5F92191A1ECE337D /* Pods-HackerNews */,
+				A2F416C864A59AC7E95E8ED9246CD4EF /* Pods-HackerNewsTests */,
+				7034E6D99183FDD48D986640646ADB06 /* Pods-HackerNewsUITests */,
+				693A56CA61847A505EBD13D7B46AF4D8 /* SwiftSoup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0280FDD6FDB0D3BA4C5D37C031481561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBB64B9E937D48C2C569840C6888BB72 /* Empty.m in Sources */,
+				AE7D3CB975FCD34E51F59C73968B6413 /* Firebase-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D5661BAEBE6DC19F2F5C950467D9B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB6078D3F571B01B05031303C675EA97 /* Pods-HackerNewsTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1EB14961DCDEAE7331D8E11B2FA09365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8174A1FA472F6321560DB9D22C39B421 /* Pods-HackerNews-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A714DFCC6105382523315095B9805DEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FED0E6D22987C46867F0AF8A81520678 /* Pods-HackerNewsUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAD9AC8F5F7558B2E80DA8F7E4FF523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841C31C410D55A96FA8EEDEF0DB9AB17 /* ArrayExt.swift in Sources */,
+				CEDFDF0E934724C675B20F7F47E79A0E /* Attribute.swift in Sources */,
+				325097C61DCF85EFAEA1182392678BBF /* Attributes.swift in Sources */,
+				5C6B35BF1B4C6BA9BC984CD5EB7FDAD0 /* BooleanAttribute.swift in Sources */,
+				F1BA2A60732A7086F7D506FD6EFBDAA1 /* CharacterExt.swift in Sources */,
+				B1F008C13186B57669AB589739D61062 /* CharacterReader.swift in Sources */,
+				CC773F5DD58003383A12514003566C2C /* Cleaner.swift in Sources */,
+				35A5D58C1B136B091CC1A8BE896FBD4E /* Collector.swift in Sources */,
+				A63E2AAC2BEA0815D6FF2E3BDBE0BBEC /* CombiningEvaluator.swift in Sources */,
+				10B8A894ECB6B481E340FD2BF9BE2D2D /* Comment.swift in Sources */,
+				E5334A1B9C21108D555CA50BA2489573 /* Connection.swift in Sources */,
+				EAFE48EDDBDB381985D3357A87D199E6 /* DataNode.swift in Sources */,
+				3E60F005CC555017DD552B09C7D39079 /* DataUtil.swift in Sources */,
+				0325111B443FFEEC8A83303DDD0CB100 /* Document.swift in Sources */,
+				E9B1513B0F16BB7FDEE94CD511973800 /* DocumentType.swift in Sources */,
+				E8A25BC5F986EA6EE3A876D9D5BDDE8F /* Element.swift in Sources */,
+				766B16F2B64C7F1F55E247F6C6FD577C /* Elements.swift in Sources */,
+				E63EF70CE21BDF74C720C4B481992264 /* Entities.swift in Sources */,
+				EAF44973DD682A86D98BAE4187913FE8 /* Evaluator.swift in Sources */,
+				CE8D5F9B1F0E68D446CC1B13869D7D80 /* Exception.swift in Sources */,
+				921C02B2CB6565E2C40ED92CCE454A0E /* FormElement.swift in Sources */,
+				8C3D611069C418BD802D629AD685DF27 /* HtmlTreeBuilder.swift in Sources */,
+				30BCFAF073B4E8FA314D9F5D8FB1CDE2 /* HtmlTreeBuilderState.swift in Sources */,
+				9DB07E34D27F1BEA1E0E4B4C1D3F1C47 /* HttpStatusException.swift in Sources */,
+				2FEC329E27FF82AFF7C7185830A0BA9F /* Node.swift in Sources */,
+				C1ED0B0A5E888C0C60E9644650FB40C7 /* NodeTraversor.swift in Sources */,
+				E4C985F80FC0F94F8E4CE380FE746B99 /* NodeVisitor.swift in Sources */,
+				E3E7C91422B55CCCCA9F70E606948434 /* OrderedDictionary.swift in Sources */,
+				93A8A4B1D4D200C6C0F690F03FD3740C /* OrderedSet.swift in Sources */,
+				4358EA88CF3261312A546FD45941148A /* ParseError.swift in Sources */,
+				00D7971EC19FBB0D654BB95A49321126 /* ParseErrorList.swift in Sources */,
+				C2B328C66973B3BAE71683BE56768EAF /* Parser.swift in Sources */,
+				31EBE6AD499445709BCD844373ED6748 /* ParseSettings.swift in Sources */,
+				B3A614BCE63F6287EF37DF191DF9F340 /* Pattern.swift in Sources */,
+				348792CAE5B03352A3F45AC43DE2CB75 /* QueryParser.swift in Sources */,
+				FD30CF64B7EFB91786A4C6A26407ED02 /* Selector.swift in Sources */,
+				645159BCA691232E5593964051A506A9 /* SerializationException.swift in Sources */,
+				74629ADE331E08693604502C62674BBD /* SimpleDictionary.swift in Sources */,
+				1BF86865F4C840C6C281EADC5CED3FD3 /* StreamReader.swift in Sources */,
+				0E047A2145927AA5D8AC92B7AD8F28FF /* String.swift in Sources */,
+				CA2D879CB0EECA928A4366B0DBED6247 /* StringBuilder.swift in Sources */,
+				6F44CF9388B63D51FD7D08383036264E /* StringUtil.swift in Sources */,
+				6635D9270341665AB5BEEE6978FA93F8 /* StructuralEvaluator.swift in Sources */,
+				1CCC9D0C038A2BB27EF10D8642C0593F /* SwiftSoup-dummy.m in Sources */,
+				C17599552C9D5E30A441F48546B3A76E /* SwiftSoup.swift in Sources */,
+				E94EF3C625F4723D424F371ED3D31EC2 /* Tag.swift in Sources */,
+				0C6AE86F1FC8C01CF6532F4D2941E84C /* TextNode.swift in Sources */,
+				BD6BAA24BE1A30C4D17B337B79433695 /* Token.swift in Sources */,
+				AD9F247FA3C54925E5D79536FD332406 /* Tokeniser.swift in Sources */,
+				9F2EEB78E362A41CDD2FC41B0CFC9C35 /* TokeniserState.swift in Sources */,
+				FE8DA6964831B6308F1257E6D9FA37F2 /* TokenQueue.swift in Sources */,
+				1A6AFC412A43770309AEF77E8FA9DC58 /* TreeBuilder.swift in Sources */,
+				2488FEA0EB25652E8C4EE033F3B1502C /* UnicodeScalar.swift in Sources */,
+				93CB9C0C0DC1162C3F776F34F27F1BD4 /* Validate.swift in Sources */,
+				554645E0E1B10E7C3A9856320C570A4A /* Whitelist.swift in Sources */,
+				A4152CC08C193939912AE9D4D867DA37 /* XmlDeclaration.swift in Sources */,
+				45510CA3A8393725BC6B99A0F130888E /* XmlTreeBuilder.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FF61CC5435B1E41DBB5B53B99EA2C15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSoup;
+			target = 693A56CA61847A505EBD13D7B46AF4D8 /* SwiftSoup */;
+			targetProxy = 45B6AC8491D1F65BE9EB70952939F6D0 /* PBXContainerItemProxy */;
+		};
+		4C87AAE906C031AA25446ED4AEBE8A06 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Firebase;
+			target = 4982F3084B981C1E6DCF8B3A064BA2DB /* Firebase */;
+			targetProxy = 113F4312EC1CAB4377C7BE2D8ECD0E36 /* PBXContainerItemProxy */;
+		};
+		ABD5AABF2D315264D90EBCCA071232E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Firebase;
+			target = 4982F3084B981C1E6DCF8B3A064BA2DB /* Firebase */;
+			targetProxy = 7550C342142DA6F187E834C4ECA6A32B /* PBXContainerItemProxy */;
+		};
+		AE7477C83E21FF15D83D7A574086386D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSoup;
+			target = 693A56CA61847A505EBD13D7B46AF4D8 /* SwiftSoup */;
+			targetProxy = 40574204AD751E7B561C3BCC60CE99DE /* PBXContainerItemProxy */;
+		};
+		E30ECA677D03CEE7465AE220012E005B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSoup;
+			target = 693A56CA61847A505EBD13D7B46AF4D8 /* SwiftSoup */;
+			targetProxy = E695E87A34CB883193D49F52A80C83EF /* PBXContainerItemProxy */;
+		};
+		F3788237AC71ADFD299D8690F2348933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Firebase;
+			target = 4982F3084B981C1E6DCF8B3A064BA2DB /* Firebase */;
+			targetProxy = 4DE2C3E09EBFFADDCFBCBFA5B677CB6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07320FE6228CAB5EB0E145989E356490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2B19B61C0FBC22B47D158215A84F58 /* Firebase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Firebase/Firebase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Firebase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Firebase/Firebase.modulemap";
+				PRODUCT_NAME = Firebase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		11C4CBE3354804166EFC10FF54744361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FEFBE94933C556D43C2CC21CE8AF024 /* Pods-HackerNewsTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HackerNewsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackerNewsTests/Pods-HackerNewsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackerNewsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1B12401CC909176B36279A0E9DF7F4D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B58F5B052624534C40AE3E543846A8 /* SwiftSoup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSoup/SwiftSoup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSoup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSoup/SwiftSoup.modulemap";
+				PRODUCT_NAME = SwiftSoup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F9224530522DD3C735EC96CF142642E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A2939CBFED194942BCEE4BB0BEA96445 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8290B6A4DCF02955E6BA80E5711FF133 /* Pods-HackerNewsUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HackerNewsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackerNewsUITests/Pods-HackerNewsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackerNewsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A49B6F08CFFE87D0EC16C5B090A04918 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10B58F5B052624534C40AE3E543846A8 /* SwiftSoup.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSoup/SwiftSoup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSoup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSoup/SwiftSoup.modulemap";
+				PRODUCT_NAME = SwiftSoup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4277BB7B3F3507F4AE87854808E62C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155033D21E0F699ECCADB5378A78407B /* Pods-HackerNews.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HackerNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackerNews/Pods-HackerNews.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackerNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B57951D085A1B98A97F8A1062A5E5C5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C728AD55223EFB2FC644E604D8162D71 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE14D4030108496D128BA3BFFA0A7425 /* Pods-HackerNewsUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HackerNewsUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackerNewsUITests/Pods-HackerNewsUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackerNewsUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D4CD270AF96F40E84EA358D57BDD4688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC2B19B61C0FBC22B47D158215A84F58 /* Firebase.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Firebase/Firebase-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Firebase/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Firebase/Firebase.modulemap";
+				PRODUCT_NAME = Firebase;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DA08AA7F722BDDD20C0DC17C4E7FB329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE6F63E26F97BAA1FB54FB2BDA45185 /* Pods-HackerNewsTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HackerNewsTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackerNewsTests/Pods-HackerNewsTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackerNewsTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E39B8594AC8A777660C44B52665CC041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D5B31DBA89C801D16FE009833549E7 /* Pods-HackerNews.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-HackerNews/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-HackerNews/Pods-HackerNews.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_HackerNews;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18150B8AD4D5227FFC01504D8B030C7F /* Build configuration list for PBXNativeTarget "Firebase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07320FE6228CAB5EB0E145989E356490 /* Debug */,
+				D4CD270AF96F40E84EA358D57BDD4688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B57951D085A1B98A97F8A1062A5E5C5B /* Debug */,
+				6F9224530522DD3C735EC96CF142642E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB86EA1967315A9D7C19904519B7B2D /* Build configuration list for PBXNativeTarget "Pods-HackerNews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E39B8594AC8A777660C44B52665CC041 /* Debug */,
+				B4277BB7B3F3507F4AE87854808E62C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DB341F055A31856F5C9B45B3E39413D /* Build configuration list for PBXNativeTarget "Pods-HackerNewsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C728AD55223EFB2FC644E604D8162D71 /* Debug */,
+				A2939CBFED194942BCEE4BB0BEA96445 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A33EF3AB223C5319E80AFEC615EDD689 /* Build configuration list for PBXNativeTarget "SwiftSoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A49B6F08CFFE87D0EC16C5B090A04918 /* Debug */,
+				1B12401CC909176B36279A0E9DF7F4D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7907D8D78B97090C0D488D6F0411C6B /* Build configuration list for PBXNativeTarget "Pods-HackerNewsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA08AA7F722BDDD20C0DC17C4E7FB329 /* Debug */,
+				11C4CBE3354804166EFC10FF54744361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
