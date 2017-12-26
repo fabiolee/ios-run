@@ -68,7 +68,7 @@ class PostViewController: UIViewController {
             DispatchQueue.main.async() {
               self.postTitle.text = jsonContent["title"] as? String
               
-              let htmlText = jsonContent["content"] as! String
+              let htmlText = jsonContent["content"] as? String ?? ""
               let modifiedFont = String(format:"<span style=\"font-family: '-apple-system', 'HelveticaNeue'; font-size: \(self.postContent.font!.pointSize)\">%@</span>", htmlText)
               let htmlData = modifiedFont.data(using: String.Encoding(rawValue: String.Encoding.utf8.rawValue))
               let attributedString = try! NSAttributedString(data: htmlData!, options: [NSDocumentTypeDocumentAttribute: NSHTMLTextDocumentType], documentAttributes: nil)

@@ -120,14 +120,17 @@ class PageViewController: UIViewController, UITableViewDataSource, UITableViewDe
   
   func extractStoryArray(_ jsonContent: AnyObject) -> [Story] {
     var storyArray = [Story]()
-    let title = jsonContent["title"] as! String
+    let title = jsonContent["title"] as? String ?? ""
     do{
-      let content = jsonContent["content"] as! String
-      let elements: Elements = try SwiftSoup.parse(content).select("ul li")
-      for element: Element in elements.array() {
-        let title: String = try element.text()
-        let url: String = try element.select("a").attr("href")
-        storyArray.append(Story(title: title, url: url, by: "Fabio", score: 0))
+      if let content = jsonContent["content"] as? String {
+        let elements: Elements = try SwiftSoup.parse(content).select("ul li")
+        for element: Element in elements.array() {
+          let title: String = try element.text()
+          let url: String = try element.select("a").attr("href")
+          storyArray.append(Story(title: title, url: url, by: "Fabio", score: 0))
+        }
+      } else {
+        loadingFailed(nil)
       }
     }catch Exception.Error( _, let message){
       print(message)
