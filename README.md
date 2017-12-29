@@ -16,8 +16,10 @@ A Cari Runners blog reader iOS app written in Swift.
 
 ## Screenshots
 
+![Permission View](Resources/screenshot0.png)
 ![Page View](Resources/screenshot1.png)
 ![Post View](Resources/screenshot2.png)
+![Push Notification View](Resources/screenshot3.png)
 
 ## License
 

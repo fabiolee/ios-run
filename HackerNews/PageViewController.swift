@@ -6,7 +6,7 @@
 //  See LICENSE for licensing information.
 //
 
-import Firebase
+import UserNotifications
 import SafariServices
 import SwiftSoup
 import UIKit
@@ -28,7 +28,7 @@ class PageViewController: UIViewController, UITableViewDataSource, UITableViewDe
   let StoryLimit: UInt = 30
   let DefaultStoryType = StoryType.top
   
-  var firebase: Firebase!
+  var firebase: FirebaseApp!
   var stories: [Story]! = []
   var storyType: StoryType!
   var retrievingStories: Bool!
@@ -56,7 +56,6 @@ class PageViewController: UIViewController, UITableViewDataSource, UITableViewDe
   
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
-    firebase = Firebase(url: FirebaseRef)
     stories = []
     storyType = DefaultStoryType
     retrievingStories = false
