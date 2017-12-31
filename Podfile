@@ -2,6 +2,8 @@ platform :ios, '9.0'
 
 def pods
   use_frameworks!
+  pod 'Crashlytics'
+  pod 'Fabric'
   pod 'Firebase/Core'
   pod 'Firebase/Messaging'
   pod "SwiftSoup"

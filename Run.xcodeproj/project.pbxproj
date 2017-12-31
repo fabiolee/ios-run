@@ -214,6 +214,7 @@
 				D74A0351193DA4F500F01247 /* Resources */,
 				E649E0F0A245F27646543313 /* [CP] Embed Pods Frameworks */,
 				2CD489E7A998054DCD029114 /* [CP] Copy Pods Resources */,
+				E5EA77821FF8B2E200ED080C /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -480,6 +481,19 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HackerNewsUITests/Pods-HackerNewsUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		E5EA77821FF8B2E200ED080C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" 3dbd7199dbaebf45bdb4e37763cb296f1e8d2742 ae88fc35919137068ba15c5dfec07cb78d5d99f150d5045955f69a8201bf63d4";
 		};
 		E649E0F0A245F27646543313 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;

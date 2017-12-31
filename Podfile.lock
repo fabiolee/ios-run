@@ -1,4 +1,7 @@
 PODS:
+  - Crashlytics (3.9.3):
+    - Fabric (~> 1.7.2)
+  - Fabric (1.7.2)
   - Firebase/Core (4.7.0):
     - FirebaseAnalytics (= 4.0.5)
     - FirebaseCore (= 4.0.12)
@@ -33,11 +36,15 @@ PODS:
   - SwiftSoup (1.5.8)
 
 DEPENDENCIES:
+  - Crashlytics
+  - Fabric
   - Firebase/Core
   - Firebase/Messaging
   - SwiftSoup
 
 SPEC CHECKSUMS:
+  Crashlytics: dbb07d01876c171c5ccbdf7826410380189e452c
+  Fabric: 9cd6a848efcf1b8b07497e0b6a2e7d336353ba15
   Firebase: dbfb98ccec2dcfcd21ab9cc1b4981a3f3c8c5e26
   FirebaseAnalytics: 5b02a63ead2c3f0259cfc7f15e053e440587ecf8
   FirebaseCore: 6cf108b63997bc08c04a1ffa55a3ac0d71a59ffc
@@ -48,6 +55,6 @@ SPEC CHECKSUMS:
   Protobuf: 8a9838fba8dae3389230e1b7f8c104aa32389c03
   SwiftSoup: 86a1f5ad07b7e3d14ab1a9324a58c75ae2215e79
 
-PODFILE CHECKSUM: 77a9be7bb007ccc15ee4939731b285b5f3e9c77b
+PODFILE CHECKSUM: 466f2a559c7d2131a454cb591494900ecd59ed46
 
 COCOAPODS: 1.3.1

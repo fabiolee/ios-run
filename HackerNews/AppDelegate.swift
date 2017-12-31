@@ -6,6 +6,8 @@
 //  See LICENSE for licensing information.
 //
 
+import Crashlytics
+import Fabric
 import Firebase
 import UIKit
 import UserNotifications
@@ -22,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   // MARK: UIApplicationDelegate
   
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    
+    Fabric.with([Crashlytics.self])
     
     FirebaseApp.configure()
     
